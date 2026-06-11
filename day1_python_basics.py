@@ -1,0 +1,5 @@
+Day 1:
+- Print Statements
+- Functions
+- Escape Characters
+- String Replication
