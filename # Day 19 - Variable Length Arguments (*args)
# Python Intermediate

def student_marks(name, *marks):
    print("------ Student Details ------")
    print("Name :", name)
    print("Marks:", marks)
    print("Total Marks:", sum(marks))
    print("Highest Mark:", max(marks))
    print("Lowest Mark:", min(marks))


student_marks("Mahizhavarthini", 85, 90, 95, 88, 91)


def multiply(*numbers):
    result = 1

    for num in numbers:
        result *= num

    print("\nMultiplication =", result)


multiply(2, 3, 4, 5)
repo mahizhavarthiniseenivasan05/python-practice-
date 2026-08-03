@@ -1,0 +1,39 @@
+# Day 19 - Variable Length Arguments (*args)
+# Python Intermediate
+
+def student_marks(name, *marks):
+    print("------ Student Details ------")
+    print("Name :", name)
+    print("Marks:", marks)
+    print("Total Marks:", sum(marks))
+    print("Highest Mark:", max(marks))
+    print("Lowest Mark:", min(marks))
+
+
+student_marks("Mahizhavarthini", 85, 90, 95, 88, 91)
+
+
+def multiply(*numbers):
+    result = 1
+
+    for num in numbers:
+        result *= num
+
+    print("\nMultiplication =", result)
+
+
+multiply(2, 3, 4, 5)
+
+
+
+
+
+
+------ Student Details ------
+Name : Mahizhavarthini
+Marks: (85, 90, 95, 88, 91)
+Total Marks: 449
+Highest Mark: 95
+Lowest Mark: 85
+
+Multiplication = 120
