@@ -1,0 +1,21 @@
+# Day 21 - Local & Global Variables
+# Python Intermediate
+
+college = "Pavendhar Bharathidasan College"
+
+def student():
+    name = "Mahizhavarthini"
+    print("Name    :", name)
+    print("College :", college)
+
+student()
+
+print("\nGlobal Variable :", college)
+
+
+
+
+Name    : Mahizhavarthini
+College : Pavendhar Bharathidasan College
+
+Global Variable : Pavendhar Bharathidasan College
